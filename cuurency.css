@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    background-color:grey;
+
+}
+.container{
+    background-color:#fff;
+    padding:2rem;
+    border-radius:1rem;
+    min-height:45vh;
+    width:45vh;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+form select,button,input{
+    width :100%;
+    padding: 1rem;
+    border:none;
+    outline:none;
+    border-radius:0.75rem;
+}
+form input{
+    border:1px solid lightgrey;
+    padding: 1rem 1rem;
+    font-size:1rem;
+    height:3rem;
+}
+.amount{
+    width:40vh;
+
+}
+.dropdown{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    margin-top:1rem;
+
+}
+.button{
+    background-color:grey;
+
+}
